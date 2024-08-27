@@ -75,8 +75,8 @@ app.use(
         },
     })
 );
-// const dbUrL=process.env.DB_URL
-const dbUrL='mongodb://127.0.0.1:27017/yelp_camp'
+const dbUrL=process.env.DB_URL
+
 mongoose.connect(dbUrL)
 const db=mongoose.connection
 db.on("error",console.error.bind(console,"connection error:"))
