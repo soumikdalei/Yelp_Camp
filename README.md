@@ -16,7 +16,7 @@ YelpCamp is a full-stack web application that allows users to discover, create, 
 - **Database:** MongoDB (Mongoose ODM)
 - **Authentication:** Passport.js
 - **Cloud Storage:** Cloudinary (for image uploads)
-- **Geolocation API:** Mapbox (for displaying camp locations)
+- **Geolocation API:** MapTiler (for displaying camp locations)
 
 ## Deployment
 It is Deployed using Render. Here is the link https://yelp-camp-1-4yg4.onrender.com/
